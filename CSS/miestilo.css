@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.perfil h1 {
+    position: absolute;
+width: 189px;
+height: 24px;
+left: 44px;
+top: 160px;
+
+font-family: Ravi Prakash;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 19px;
+text-align: justify;
+
+color: #000000;
+}
+
+.perfilprofesional li
+{
+    position: absolute;
+    width: 259px;
+    height: 251px;
+    left: 44px;
+    top: 180px;
+   
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+
+.fotoeduardo img {
+    position: absolute;
+    width: 119px;
+    height: 162px;
+    left: 373px;
+    top: 40px;
+}
+
+.fotoencabezado img{
+    position: absolute;
+    width: 595px;
+    height: 136.39px;
+    left: 0px;
+    top: 0px;
+}
+
+.hojadevida h1{
+    position: absolute;
+    width: 261.94px;
+    height: 56px;
+    left: 542.88px;
+    top: 515.5px;
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 57px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-90.52deg);
+
+}
+
+
+
+.infopersonal ul{
+    position: absolute;
+    width: 177px;
+    height: 206px;
+    left: 344px;
+    top: 215px;
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.estudios h1 {
+    position: absolute;
+    width: 111px;
+    height: 20px;
+    left: 384px;
+    top: 467px;
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.estudiosrealizados ul{
+    position: absolute;
+    width: 190px;
+    height: 276px;
+    left: 344px;
+    top: 492px;
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.laboral h1{
+    position: absolute;
+    width: 175px;
+    height: 96px;
+    left: 44px;
+    top: 530px;
+    
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    text-align: justify;
+    
+    color: #000000;
+    
+}
+
+.experlaboral ul{
+    position: absolute;
+    width: 258px;
+    height: 210px;
+    left: 44px;
+    top: 550px;
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+
+}
+
+
+.firma h1{
+    position: absolute;
+    width: 226px;
+    height: 49px;
+    left: 149px;
+    top: 768px;
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.refpersonal ul{
+    position: absolute;
+    width: 257px;
+    height: 144px;
+    left: 48px;
+    top: 660px;
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+
+}
+
+.refer h1 {
+    position: absolute;
+    width: 185px;
+    height: 23px;
+    left: 44px;
+    top: 640px;
+
+    font-family: Ravi Prakash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+
+}
