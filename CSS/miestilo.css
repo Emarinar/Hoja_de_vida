@@ -3,238 +3,174 @@
     padding: 0px;
 }
 
-.perfil h1 {
-    position: absolute;
-    width: 189px;
-    height: 24px;
-    left: 44px;
-    top: 160px;
+.hj h1{
+    background-color: rgb(200, 230, 241);
+    padding: 1%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(14, 10, 14);
+}
+.encabezado{
+    display: flex;
+    background-color: rgb(18, 11, 46);
+    justify-content: space-around;
+    align-items: center;
 
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 15px;
+}
+
+.encabezado img{
+    width: 100px;
+    border-radius: 20%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.encabezado h1{
+    color: seashell;
+}
+
+.infoprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infopersonal h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.infopersonal1 ul {
+    list-style: none;
+}
+
+.infopersonal1 {
+    background-color: rgb(200, 230, 241);
+    padding: 15px;
+    margin: 15px;
+    width: 25%;
+    border: rgb(4, 21, 59) 10px outset;
+}
+
+.infopersonal1 label,i{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+.inforicono {
+    display: flex;
+}
+
+
+.perfilprofesional{
+    background-color: rgb(200, 230, 241); 
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    border: rgb(4, 21, 59) 10px outset;
+}   
+
+.perfilprofesional label,i{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.perfilprofesional p{
     text-align: justify;
-    
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    color: #000000;
+    letter-spacing: 0.8px;
 }
 
-.perfilprofesional li
-{
-    position: absolute;
-    width: 259px;
-    height: 251px;
-    left: 44px;
-    top: 180px;
-   
-
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 19px;
-    text-align: justify;
-
-    color: #000000;
-}
-
-
-.fotoeduardo img {
-    position: absolute;
-    width: 119px;
-    height: 162px;
-    left: 430px;
-    top: 40px;
-}
-
-.fotoencabezado img{
-    position: absolute;
-    width: 700px;
-    height: 136.39px;
-    left: 0px;
-    top: 0px;
-}
-
-.piedepagina img{
-    position: absolute;
-    width: 700px;
-    height: 97px;
-    left: 0px;
-    top: 745px;
-
-background: url(Informatica.jpg);
-}
-
-.hojadevida h1{
-    position: absolute;
-    width: 261.94px;
-    height: 56px;
-    left: 542.88px;
-    top: 400.5px;
-
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 57px;
-
-    color: #000000;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transform: rotate(-90.52deg);
-
-}
-
-
-
-.infopersonal ul{
-    position: absolute;
-    width: 177px;
-    height: 206px;
-    left: 400px;
-    top: 215px;
-
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 19px;
+.estudios h1{
     text-align: center;
-
-    color: #000000;
+    font-size: 25px;
 }
 
-.estudios h1 {
-    position: absolute;
-    width: 111px;
-    height: 20px;
-    left: 435px;
-    top: 440px;
-
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 15px;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #000000;
-
+.estudios {
+    background-color: rgb(200, 230, 241); 
+    padding: 15px;
+    margin: 15px;
+    width: 25%;
+    border: rgb(4, 21, 59) 10px outset;
 }
 
-.estudiosrealizados ul{
-    position: absolute;
-    width: 190px;
-    height: 276px;
-    left: 400px;
-    top: 492px;
+.estudios ul{
+    list-style: none;
+}
 
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 19px;
+.estudios label{
     text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
 
-    color: #000000;
+.iconestudio{
+    display: flex;
+}
 
+@media screen and (max-width:800px) {
+    .infopersonal1{
+        width: 100%;
+    }
+    .perfilprofesional{
+        width: 100%;
+    }
+    .estudios{
+        width: 100%;
+    }
+    .laboral{
+        width: 100%;
+    }
+    .referencias{
+        width: 100%;
+    }
+}
 
+.infosegundaria{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(200, 230, 241) ;
 }
 
 .laboral h1{
-    position: absolute;
-    width: 175px;
-    height: 96px;
-    left: 44px;
-    top: 530px;
-    
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 16px;
-    /* identical to box height */
-    
-    text-align: justify;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    color: #000000;
-    
+    text-align: center;
+    font-size: 25px;
 }
 
-.experlaboral ul{
-    position: absolute;
-    width: 258px;
-    height: 210px;
-    left: 44px;
-    top: 550px;
-
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 16px;
-    text-align: justify;
-
-    color: #000000;
-
+.laboral{
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 15px;
+    border: rgb(4, 21, 59) 30px outset;
+    width: 30%;
 }
 
-
-.firma h1{
-    position: absolute;
-    width: 226px;
-    height: 49px;
-    left: 210px;
-    top: 768px;
-
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 29px;
-    text-align: justify;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    color: #000000;
+.laboral ul{
+    list-style: none;
 }
 
-.refpersonal ul{
-    position: absolute;
-    width: 257px;
-    height: 144px;
-    left: 48px;
-    top: 660px;
-
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 16px;
-    text-align: justify;
-
-    color: #000000;
-
+.referencias h1{
+    text-align: center;
+    font-size: 25px;
 }
 
-.refer h1 {
-    position: absolute;
-    width: 185px;
-    height: 23px;
-    left: 44px;
-    top: 640px;
+.referencias{
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 15px;
+    border: rgb(4, 21, 59) 30px outset;
+    width: 30%;
+}
 
-    font-family: Ravi Prakash;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 16px;
-    text-align: justify;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.referencias ul{
+    list-style: none;
+}
 
-    color: #000000;
-
+.Contenedor{
+    background-color:rgb(255, 255, 255)
 }
